@@ -1,12 +1,11 @@
-package com.yourname.HelloAndr
+package com.example.helloandr
 
 import android.content.Intent
 import android.os.Bundle
 import android.util.Log
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
-import com.example.helloandr.R
-import com.yourname.HelloAndr.SecondActivity
+
 
 class MainActivity : AppCompatActivity() {
     private val TAG = "MainActivity"
