@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#E8F5E8">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=" Second Activity"
+        android:textSize="28sp"
+        android:textColor="#4CAF50"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="32dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Congratulations! You successfully navigated between activities using explicit intents."
+        android:textSize="16sp"
+        android:textColor="#333333"
+        android:gravity="center"
+        android:layout_marginBottom="48dp"
+        android:lineSpacingExtra="4dp" />
+
+    <Button
+        android:id="@+id/btnBackToMain"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="⬅ Back to MainActivity"
+        android:textSize="16sp"
+        android:backgroundTint="#2196F3"
+        android:padding="12dp" />
+
+</LinearLayout>
